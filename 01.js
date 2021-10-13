@@ -11,3 +11,6 @@ var c = 33;
 a = a / 12;
 b = b / 4;
 c = c / 11;
+function whoIsPaying(name){
+    return (name.length>2)?([name, name.substr(0,2)]):[name];
+  }
